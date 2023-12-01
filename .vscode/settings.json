@@ -1,0 +1,54 @@
+{
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    "string.quoted.docstring.multi.python",
+                    "string.quoted.docstring.multi.python punctuation.definition.string.begin.python",
+                    "string.quoted.docstring.multi.python punctuation.definition.string.end.python",
+                    "string.quoted.docstring.multi.python constant.character.escape.python"
+                ],
+                "settings": {
+                    "foreground": "#49494d"
+                }
+            },
+            {
+                "scope": "entity.name.type.class.python",
+                "settings": {
+                    "foreground": "#6aa84f",
+                    "fontStyle": "bold"
+                }
+            },
+              {
+                "scope": "variable.language.special.self.python",
+                "settings": {
+                    "foreground": "#7b7777"
+                }
+            },
+            {
+                "scope": "variable.parameter.function-call.python",
+                "settings": {
+                    "foreground": "#206e43"
+                }
+            },
+            {
+                "scope": "meta.function-call.generic.python",
+                "settings": {
+                    "foreground": "#6aa84f"
+                }
+            }
+        ],
+        "[Winter is Coming (Light)]": {
+        }
+    },
+    "workbench.colorCustomizations" : {
+        "terminal.foreground" : "#980000",
+        "terminal.background" : "#434343"
+    }
+}
