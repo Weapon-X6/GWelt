@@ -22,7 +22,7 @@ services:
     depends_on:
       - database
     environment:
-      - SQL_ENGINE=django.db.backends.postgresql
+      - SQL_ENGINE=django.db.backends.postgis
       - SQL_DATABASE=shopdb
       - SQL_USER=yesterday
       - SQL_PASSWORD=deadover*20
